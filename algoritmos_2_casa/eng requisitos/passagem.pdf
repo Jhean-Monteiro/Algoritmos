@@ -1,0 +1,19 @@
+ATIVIDADES
+  Considere um sistema de reserva de passagens aéreas. O sistema permite que os usuários
+pesquisem voos, façam reservas e realizem o pagamento das passagens. Além disso, o sistema
+deve fornecer aos administradores a capacidade de gerenciar voos, cadastrar companhias aéreas
+e atualizar informações de voos existentes.
+• Análise de Requisitos:
+1. Identifique três requisitos funcionais para o sistema de reserva de passagens aéreas.
+2. Identifique três requisitos não funcionais para o sistema de reserva de passagens
+aéreas.
+• Caso de Uso: Considere o caso de uso "Pesquisar voos" para o sistema de reserva de
+passagens aéreas.
+• Crie um diagrama de caso de uso que represente o caso de uso "Pesquisar voos".
+• Escreva a descrição detalhada do caso de uso "Pesquisar voos", incluindo os atores
+envolvidos, pré-condições, fluxo básico e pós-condições.
+• Implemente um fluxograma simplificado
+
+
+1- Requisitos Funcionais:
+1. Peesquisa de Voos: O sistema deve permitir que os usuários pesquisem voos disponíveis com base em critérios como origem
