@@ -6,5 +6,29 @@ GRUPO 3 (LINEARES)             → Counting → Bucket → Radix
 
 
 
+
+
+merge, quick e heap: coisas em comum: 
+- baseados na logica de pegar um grande problema, separar em problemas menores pra resolver separadamente, e depois juntar eles novamente com o problema ja resolvido
+- nao sao estaveis pois nao mantem uma ordem relativa de elementos iguais
+- usam recursao
+- Garantem O(n log n) em casos medios (so o quicksort apresenta O(n)**2 no pior cenario)
+- sao usados em bibliotecas reais de linguagens valorizadas no mercado como, o sorted do python que usa parcialmente o megesort 
+
+
 merge sort: 
-primeiro, faz a divisao da lista na recursao e depois chama a funcao merge que vai ordenar a lista
+- primeiro, faz a divisao da lista na recursao e depois chama a funcao merge que vai - ordenar a lista.
+
+quick sort: 
+- escolhe um pivo
+- divide a lista em subarranjos
+- subarranjo esquerdo leva os elementos menores que o pivo, enquanto o direito leva os elementos maiores
+- repete a operacao acima via recursao 
+- pior caso: pivo nos extremos
+
+heap sort:
+- cria um maxheap que é basicamente a representacao de uma arvore binaria
+- Uma árvore binária é uma estrutura hierárquica onde cada nó tem no máximo dois filhos: um esquerdo e um direito.
+- verifica se um dos filhos, esquerdo e direito é maior que o pai. se sim, realiza a troca de posicao, até o maior valor ficar posicionado na raiz.
+- o elemento posicionado na raiz é levado ao final da lista organizada, e assim um novo numero vai assumir a sua posicao na arvore binaria, sendo necessario realizar esse processo de troca novamente, até o atual maior valor estar posicionao na raiz, e ser colocado a esquerda da raiz anterior na lista organizada
+- repete isso ate a lista ordenada estiver completa
