@@ -1,0 +1,10 @@
+GRUPO 1 (QUADRÁTICOS)          → Selection → Bubble → Insertion
+         ↓↓↓
+GRUPO 2 (N LOG N) ou quase linear      → Merge → Quick → Heap
+         ↓↓↓
+GRUPO 3 (LINEARES)             → Counting → Bucket → Radix
+
+
+
+merge sort: 
+primeiro, faz a divisao da lista na recursao e depois chama a funcao merge que vai ordenar a lista

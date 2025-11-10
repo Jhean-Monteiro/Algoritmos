@@ -1,0 +1,30 @@
+quadrticos:
+
+Na prática, O(n²) significa: “se a lista dobrar de tamanho, o tempo vai QUADRIPLICAR (ou pior).”
+n =  1000 → tempo = 0.052 segundos
+n =  2000 → tempo = 0.209 segundos   ← 4× mais lento (dobrou n → 4× tempo)
+n =  4000 → tempo = 0.840 segundos   ← 16× mais lento
+n =  8000 → tempo = 3.380 segundos   ← 65× mais lento
+n = 16000 → tempo = 13.590 segundos  ← 261× mais lento → 13 segundos travando!
+
+
+Ele é quadratico Se:
+Se o algoritmo TEM QUE olhar/comparar quase todo mundo com quase todo mundo → O(n²).
+Se ele consegue “pular” quando já tá bom → pode escapar do quadrático.
+
+
+
+Ser quadrático é sempre ruim?
+NÃO! Depende 100% do tamanho da entrada (n).
+
+
+
+“Muita gente fala que Bubble, Insertion e Selection são ‘todos O(n²)’.
+Errado.
+Só o Selection Sort é O(n²) em todos os casos.
+Insertion e Bubble viram O(n) se a lista já estiver ordenada.”
+
+
+“Ser quadrático não é ruim — é ruim só quando n é grande.
+Para n pequeno, algoritmos O(n²) são mais rápidos na prática por causa de constantes pequenas e zero overhead.
+Por isso o Python usa Insertion Sort (O(n²)) em pedaços pequenos do TimSort.”
